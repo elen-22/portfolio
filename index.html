@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>My Portfolio</h1>
+            <nav class="menu">
+                <a href="#about-me">About me</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#contact-me">Contact me</a>
+            </nav>
+            <div class="social">
+                <a href="https://www.instagram.com/elen._grigoryan?igsh=MW9vdDd0Zm45ZGx1Mw%3D%3D&utm_source=qr"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/elen-grigoryan-7907b5193/"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </header>
+
+        <main>
+            <section id="about-me">
+                <div class="home-content">
+                    <div class="about-text">
+                        <p>Hey, I am Elen.</p>
+                        <p>A Front-End Developer</p>
+                        <button id="contactBtn"><a href="#contact-me">Contact me</a></button>
+                    </div>
+                    <div class="about-image">
+                        <img src="./img/elen.jpg" alt="Elen">
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <h2>Services</h2>
+                <ul class="service-list">
+                    <li>Responsive Web Design</li>
+                    <li>Website Development</li>
+                    <li>UI/UX Improvements</li>
+                    <li>JavaScript Functionality</li>
+                </ul>
+            </section>
+            <section id="portfolio">
+                <h2>My Projects</h2>
+                <div class="projects">
+                    <div class="project-card">
+                        <h3>Landing page</h3>
+                        <p>A cool landing page built with HTML, CSS, and JS.</p>
+                        <a href="https://github.com/elen-22" class="view-btn">View more</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Quiz</h3>
+                        <p>An interactive quiz app to test math knowledge.</p>
+                        <a href="https://github.com/elen-22" class="view-btn">View more</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Memory Game</h3>
+                        <p>An interactive memory game</p>
+                        <a href="https://github.com/elen-22" class="view-btn">View more</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>To do List</h3>
+                        <p>An interactive to do list</p>
+                        <a href="https://github.com/elen-22" class="view-btn">View more</a>
+                    </div>
+            </section>
+
+            <!-- Contact Me Section -->
+            <section id="contact-me">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2025 Elen. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
